@@ -1,0 +1,9 @@
+@charset "utf-8";
+.section_innner {
+  padding: 50px 10% 30px;
+}
+
+article {
+  padding: 20px;
+  background-image: url("sample_key.jpg") ;
+}
