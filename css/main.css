@@ -2,9 +2,8 @@
 
 .section_innner {
   padding: 50px 10% 30px;
-}
 
-article {
-  padding: 20px;
-  background-image: url("sample_key.jpg") ;
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
 }
