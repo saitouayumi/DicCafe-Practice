@@ -5,38 +5,43 @@
     <title>DIC cafe</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header id="#top">
       <nav>
         <a href="index.html" target="_blank"><img src="images/sample_logo_k.png"></a>
         <ul>
-          <a href="index.html"><li>Home</li></a>
-          <a href="#"><li>Menu</li></a>
-          <a href="contact.html"><li>Contact</li></a>
+          <a href="index.html" class="global_nav_item"><li>Home</li></a>
+          <a href="#" class="global_nav_item"><li>Menu</li></a>
+          <a href="contact.html" class="global_nav_item"><li>Contact</li></a>
         </ul>
       </nav>
       <div class="key section_inner">
         <h1>DIC Coffee</h1>
-        <p>natural organic coffee</p>
+        <p>natural organic cafe</p>
       </div>
     </header>
     <section>
       <article class="section_inner">
-        <h1>CONCEPT</h1>
-        <p>DIC Coffeeのこだわり</p>
-        <p>
-          "DIC Coffeeのコーヒーはルワンダ産のコーヒー豆<b>「DIC Beans」</b>を使用しています。<br>
-          直接契約したコーヒー農家から仕入れております。<br>
-          バランスの取れた酸味とコクに、フルーティな甘さを感じられる１杯です。ぜひ、こだわりの１杯をお楽しみください。<br>
-        <small>※Cafeは株式会社DIVE INTO CODEが農場と契約、運営しています。</small>
-        </p>
-        <img src="images/sample_concept.jpg">
+        <div class="section_title">
+          <h1>CONCEPT</h1>
+          <p>DIC Coffeeのこだわり</p>
+        </div>
+          <p>
+            "DIC Coffeeのコーヒーはルワンダ産のコーヒー豆<b>「DIC Beans」</b>を使用しています。<br>
+            直接契約したコーヒー農家から仕入れております。<br>
+            バランスの取れた酸味とコクに、フルーティな甘さを感じられる１杯です。ぜひ、こだわりの１杯をお楽しみください。<br>
+          <small>※Cafeは株式会社DIVE INTO CODEが農場と契約、運営しています。</small>
+          </p>
+          <img src="images/sample_concept.jpg">
       </article>
       <article class="section_inner">
-        <h1>MENU</h1>
+        <h1 class="section_title">MENU</h1>
         <section>
-          <h1>Recommended menu</h1>
+          <div class="center">
+            <h1 class="menu taitle">Recommended menu</h1>
+          </div>
           <ul>
             <li>
               <h2>ブルーベリーパンケーキ</h2>
@@ -53,33 +58,37 @@
           </ul>
         </section>
         <section>
-          <h1>Coffee menu</h1>
+          <div class="center">
+            <h1 class="menu title">Coffee menu</h1>
+          </div>
           <ul>
             <li>
               <h2>ブレンドコーヒー</h2>
               <p>¥400</p>
-              <img src="images/sample_cafe1.jpg">
+              <img src="images/sample_cafe1.jpg" class="coffee_menu_image">
             </li>
             <li>
               <h2>アートラテ</h2>
               <p>¥500</p>
-              <img src="images/sample_cafe2.jpg">
+              <img src="images/sample_cafe2.jpg" class="coffee_menu_image">
             </li>
             <li>
               <h2>カフェラテ</h2>
               <p>¥450</p>
-              <img src="images/sample_cafe3.jpg">
+              <img src="images/sample_cafe3.jpg" class="coffee_menu_image">
             </li>
             <li>
               <h2>アイスコーヒー</h2>
               <p>¥350</p>
-              <img src="images/sample_cafe4.jpg">
+              <img src="images/sample_cafe4.jpg" class="coffee_menu_image">
             </li>
         </section>
       </article>
       <article class="section_inner">
-        <h1>ACCESS</h1>
-        <p>店舗情報</p>
+        <div class="section_title">
+          <h1>ACCESS</h1>
+          <p>店舗情報</p>
+        </div>
         <dl>
           <dt>営業時間<dt>
             <dd>
